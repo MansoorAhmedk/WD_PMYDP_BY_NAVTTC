@@ -1,2 +1,6 @@
 # WD_PMYDP_BY_NAVTTC
-**js
+```js
+function myfunction(element,clr){
+    element.style.clr
+}
+```
