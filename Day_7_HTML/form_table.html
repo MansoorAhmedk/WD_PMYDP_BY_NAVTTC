@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form using Tables</title>
+</head>
+<body>
+
+    <center>
+        <h1>Forms Using Tables</h1>
+        <form action="data.html">
+            <fieldset>
+                <legend>Registration Form</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">First Name:</label><br>
+                        <input type="text" name="fname" id="fname" placeholder="Enter your First Name">
+                    </td>
+                    <td>
+                        <label for="lname">Last Name:</label><br>
+                        <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" id="email" required placeholder="Enter your Email">
+                    </td>
+                    <td>
+                        <label for="password">Password</label><br>
+                        <input type="password" name="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">Date of Birth:</label> <br>
+                        <input type="date" name="dob" id="dob">
+                    </td>
+                    <td>
+                        <label for="pnumber">Phone Number:</label> <br>
+                        <input type="number" name="pnumber" id="pnumber">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="feedback">Feedback</label><br>
+                        <textarea name="feedback" id="feedback" cols="46" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="country">country</label><br>
+                        <select name="country" id="country">
+                            
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="India">India</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                            <option value="China">China</option>
+                            <option value="Iran"selected>Iran</option>
+                            <option value="Afganistan">Afganistan</option>
+                            <option value="UAE">UAE</option>
+                            <option value="USA">USA</option>
+                            <option value="blank" ></option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="submit" id="submit">
+                    </td>
+                    
+                </tr>
+
+                
+
+
+            </table>
+        </fieldset>
+        </form>
+
+    </center>
+    
+</body>
+</html>
