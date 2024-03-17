@@ -1,0 +1,52 @@
+/* ul{
+    /* list-style-type: square; */
+    /* list-style-image: url(hand.png); */
+    /* list-style-position: outside; */
+    /* list-style: circle url() inside;
+    background-color: coral;
+    padding: 10px;
+
+} */
+
+/* ul li{
+    background-color: bisque;
+}
+
+
+
+ol{
+    list-style-type: lower-roman;
+    background-color: coral;
+    padding: 10px;
+    list-style-position: inside;
+    text-align: right;
+}
+
+ol li{
+    background-color: bisque;
+} */ 
+
+table{
+    width: 100%;
+}
+table tr td{
+    /* border: 2px solid green; */
+    /*  */
+    /* background-color: blue; */
+}
+
+tr:nth-child(even){
+    background-color: aqua;
+}
+tr:nth-child(odd){
+    background-color: rgb(198, 17, 186);
+}
+
+
+
+table tr:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+    transform: scale(1.5);
+
+}

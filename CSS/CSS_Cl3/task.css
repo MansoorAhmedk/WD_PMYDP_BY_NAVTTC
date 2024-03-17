@@ -1,0 +1,31 @@
+/* Make circle with border-radius */
+.dabba1{
+    border: 3px dashed green;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+/* Rectangle with all corner rounded */
+
+.dabba2{
+    border: 3px solid blue;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+
+}
+
+/* Rectangle with 2 corner rounded */
+
+.dabba3{
+    border: 3px solid red;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px 0px 15px 0px;
+
+}

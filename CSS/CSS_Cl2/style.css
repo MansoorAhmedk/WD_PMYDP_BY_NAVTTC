@@ -1,0 +1,36 @@
+body{
+    /* Ye jo code likh raha hn sirf anpe samjhne k liye */
+    /* background-color: rgb(135,120, 255); */
+    /* background-color: #3a5b6c; */
+
+    /* background-image: url(https://i.pinimg.com/736x/6b/30/9a/6b309a2ccde102f45ef6c4e5c3f40052.jpg); */
+    /* background-image: url(https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.webp?b=1&s=612x612&w=0&k=20&c=C318sxgBBIO66E7vi_0Eu3lXHm9uRDauKvRgeyxY2O4=);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover;
+    background-attachment: fixed; */
+
+    /* background: #ff0000 url("https://i.pinimg.com/736x/6b/30/9a/6b309a2ccde102f45ef6c4e5c3f40052.jpg") no-repeat right; */
+
+    
+
+
+}
+
+div{
+    border: 5px solid #ff002a;
+}
+
+div>h1{
+    border: 5px dotted blue;
+}
+
+div>p{
+    border: 3px solid green;
+}
+
+#azzam{
+    color: aqua;
+    background-color: magenta;
+    
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript" src="scripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+
+    <style>
+        div{
+            max-width:500px ;
+            /* width: 500px; */
+            background-color: aqua;
+        }
+
+        .newdiv{
+             width: 500px;
+             background-color: aqua;
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+  <p onclick="myFunction(this, 'green')">Click me to change my text color.</p>
+
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque omnis veniam dolores ratione at error illum magni. Suscipit voluptate laudantium provident itaque, et, ad vel numquam ut deserunt, repellat placeat.</p>
+    </div>
+    <div class="newdiv">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque omnis veniam dolores ratione at error illum magni. Suscipit voluptate laudantium provident itaque, et, ad vel numquam ut deserunt, repellat placeat.</p>
+    </div>
+
+
+
+  <script>
+    function myFunction(element,clr) {
+    element.style.color = clr;
+}
+  </script>
+
+</body>
+
+</html>

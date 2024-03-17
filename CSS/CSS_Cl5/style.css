@@ -1,0 +1,58 @@
+/* img{
+    width: 75px;
+    float: left;
+}
+
+p{
+    border: 1px solid black;
+    margin: 0% 20% 0% 20%;
+}
+
+
+
+/* .background{
+    background-image: url(img/tom.jpeg);
+} */ 
+
+
+
+
+
+
+.outerbox{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 0% 20% 0% 20%;
+    overflow: scroll;
+}
+
+.innerbox1,.innerbox2,.innerbox3,.innerbox4,.innerbox5{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+}
+
+
+.innerbox1{
+    position: relative;
+    right: 50px;
+    top: 20px;
+}
+
+.innerbox2{
+    position:fixed;
+    bottom: 50px;
+    right: 30px;
+}
+
+.innerbox3{
+    position: absolute;
+    right: 30px;
+}
+
+.innerbox5{
+    position: sticky;
+    top: 10px;
+    background-color: yellow;
+}

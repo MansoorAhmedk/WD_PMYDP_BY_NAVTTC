@@ -1,0 +1,28 @@
+.box1, .box2, .box3, .box4{
+    border: 2px solid green;
+    margin: 30px;
+    padding: 20px;
+
+
+}
+
+
+.box2{
+    /* margin-left: 50px; */
+    max-width: 500px;
+    height: 150px;
+
+}
+
+
+.box1{
+    width: 500px;
+    height: 150px;
+}
+
+
+ul {
+    list-style-type: disc;
+    list-style-image: url(https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg);
+    list-style: ;
+}
