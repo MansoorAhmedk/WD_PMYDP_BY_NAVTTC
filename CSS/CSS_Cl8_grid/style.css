@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    border: 2px solid red;
+    display: grid;
+    gap: 5px;
+
+    grid-template-columns: auto auto 200px 300px;
+
+    grid-template-rows: auto 1fr 2fr;
+
+   
+    
+}
+
+
+.box{
+    border: 2px solid green;
+    padding: 12px;
+}
+
+
+.item1{
+    grid-column: 1/ span 3;
+}
+
+.item2{
+    grid-row: 2/ span 3;
+}
+
+.item3{
+    grid-area: 1 / 2 / 5 / 6;
+}

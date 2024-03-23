@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxes1{
+    grid-area: header;
+}
+
+.boxes2{
+    grid-area: mymenu;
+}
+
+.boxes3{
+    grid-area: main;
+}
+
+.boxes4{
+    grid-area: mycontent;
+}
+
+.boxes5{
+    grid-area: footer;
+}
+.container {
+    border: 2px solid red;
+    display: grid;
+    
+    gap: 2px;
+    grid-template-areas: 
+    header header header header header header
+    mymenu mymenu main main mycontent mycontent
+    mymenu mymenu main main mycontent mycontent
+    footer footer footer footer footer footer;
+}
+
+.box{
+    border: 2px solid green;
+    padding: 12px;
+    width: 100px;
+}
+
+

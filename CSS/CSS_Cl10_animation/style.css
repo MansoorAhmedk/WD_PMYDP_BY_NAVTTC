@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* For Transform Property */
+/* .outerbox{
+    width: 400px;
+    height: 400px;
+    background-color: teal;
+    border: 2px solid white;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.innerbox{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid ridge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateZ(250deg); */
+    /* transform: translate(50%, 50%);
+    transition: 1s ease;
+    transform-origin: top left;
+}
+
+.innerbox:hover{
+    transform: rotate(360deg); 
+}*/
+
+
+/* For Transition Property */
+
+/* .box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    margin-inline: auto;
+    margin-top: 90px;
+    background-color: teal;
+    transition-duration: 1s;
+    /* transition-delay: 2s; */
+    /* transition-property: border-radius;
+    transition-timing-function:ease-in;
+}*/
+
+
+/* .box:hover{
+    background-color: blueviolet;
+    border-radius: 50%;
+}  */
+
+
+
+/* Keyframe Animation */
+
+
+body{
+    background-color: teal;
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    margin-inline: auto;
+    margin-top: 50px;
+    border-radius: 50%;
+    animation: orbit 2s linear   infinite  reverse;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+
+    /* border-radius: 50px; */
+    /* background-color: white; */
+    /* animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+    /* animation: orbit 2s linear   infinite  reverse; */
+    
+}   
+
+.box img{
+    width: 100px;
+    transform: rotate(270deg);
+}
+
+@keyframes slide{
+    0% {
+        transform: translate(0, 0);
+    }
+    25%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(200px, 200px);
+    }
+    75%{
+        transform: translate(0, 200px);
+    }
+
+    100%{
+        transform: translate(200px, 0);
+    }
+}
+
+
+@keyframes orbit{
+    from{
+        transform: rotate(0);
+    }
+        
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    animation: up-dwon 0.8s ease infinite alternate both;
+}
+
+.dot:nth-child(2){
+    animation-delay: 0.1s;
+    background-color: red;
+}
+.dot:nth-child(3){
+    animation-delay: 0.2s;
+    background-color: yellow;
+}
+
+.dot:nth-child(4){
+    animation-delay: 0.3s;
+    background-color: green;
+}
+
+.dot:nth-child(1){
+    background-color: blue;
+}
+
+
+
+@keyframes up-dwon{
+    from{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}

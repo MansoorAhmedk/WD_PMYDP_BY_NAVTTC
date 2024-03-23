@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box{
+    border: 2px solid blue;
+    padding: 12px;
+    height: 100px;
+    text-align: center;
+}
+
+.item1{
+    grid-area: header;
+    
+
+}
+
+.item2{
+    grid-area: menu;
+}
+
+.item3{
+    grid-area: main;
+
+}
+
+.item4{
+    grid-area: right;
+
+}
+
+.item5{
+    grid-area: footer;
+
+}
+
+.container{
+    border: 2px solid green;
+    display: grid;
+    background-color: aqua;
+    
+
+    grid-template-areas: 
+    'header header header header'
+    'menu main main right'
+    'footer footer footer footer'
+    ;
+    
+}
